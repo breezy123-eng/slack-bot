@@ -6,6 +6,9 @@ $data = json_decode(file_get_contents('php://input'), true);
 
 if (!isset($data["challenge"])) {
     error_log(print_r($data, true)); 
+    require "SlackController.php";
+    $slackController = SlackController();
+    $slackController->sendChatMsg("Hello Response from API");
 }
 
 else {
@@ -14,5 +17,3 @@ else {
     header('X-PHP-Response-Code: 200', true, 200);
     echo $data["challenge"];
 }
-
-?>
