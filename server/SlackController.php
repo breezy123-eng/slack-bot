@@ -9,7 +9,7 @@ class SlackController {
 	function __construct() {
 		echo "Inside of slack controller\n";
 		$config = [
-		    'token' => 'xoxp-1058876890481-1058876890769-1073393682288-b7c9432d5b985974ec9dc539e080a570',
+		    'token' => 'xoxb-1058876890481-1051231960758-qIla9jC7Eg2NF0P1eeEJ7wJJ',
 		    // 'team' => 'YOUR-TEAM',
 		    'username' => 'grittool',
 		    'icon' => 'ICON', // Auto detects if it's an icon_url or icon_emoji
