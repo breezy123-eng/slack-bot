@@ -1,3 +1,3 @@
 [submodule "vendor/threadmeup/slack-sdk"]
 	path = vendor/threadmeup/slack-sdk
-	url = https://github.com/corykeane/slack-sdk.git
+	url = https://github.com/breezy123-eng/slack-sdk.git
