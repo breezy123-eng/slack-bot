@@ -21,7 +21,7 @@ if (isset($data["challenge"])) {
 	return;
 }
 
-$input = array_merge($data ?: [], $_GET ?: []);
+$input = array_merge($data ?: [], $_GET ?: [], $_POST ?: []);
 if (empty($input) || !$input){
 	return;
 }
